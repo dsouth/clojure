@@ -5833,7 +5833,11 @@ public class Compiler implements Opcodes {
             Var v = isMacro(op);
             if (v != null) {
                 try {
-                    return v.applyTo(RT.cons(form, RT.cons(LOCAL_ENV.get(), form.next())));
+                    final Object x1 = LOCAL_ENV.get();
+                    final ISeq next = form.next();
+                    final ISeq inner_cons = RT.cons(x1, next);
+                    final ISeq outer_cons = RT.cons(form, inner_cons);
+                    return v.applyTo(outer_cons);
                 } catch (ArityException e) {
                     // hide the 2 extra params for a macro
                     throw new ArityException(e.actual - 2, e.name);
