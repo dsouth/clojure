@@ -1,3 +1,13 @@
+This is a modified version of the Clojure codebase in order to make the codebase
+easier to load, run and navigate in IntelliJ.
+
+The worst part of the modification is that I've had to modify version.properties
+so that a REPL can actually be loaded and run. I've probably broken the ant
+build in the process. But since this is meant to be for educational purposes, if
+you really want a "working" Clojure codebase, best to go to the source...
+
+What follows is the original readme.txt...
+
  *   Clojure
  *   Copyright (c) Rich Hickey. All rights reserved.
  *   The use and distribution terms for this software are covered by the
