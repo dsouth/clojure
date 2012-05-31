@@ -10,10 +10,10 @@
 
 package clojure.lang;
 
+import java.io.IOException;
+import java.io.LineNumberReader;
 import java.io.PushbackReader;
 import java.io.Reader;
-import java.io.LineNumberReader;
-import java.io.IOException;
 
 
 public class LineNumberingPushbackReader extends PushbackReader {

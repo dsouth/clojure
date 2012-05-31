@@ -12,50 +12,48 @@
 
 package clojure.lang;
 
-import java.io.StringWriter;
+public abstract class AMapEntry extends APersistentVector implements IMapEntry {
 
-public abstract class AMapEntry extends APersistentVector implements IMapEntry{
+    public Object nth(int i) {
+        if (i == 0)
+            return key();
+        else if (i == 1)
+            return val();
+        else
+            throw new IndexOutOfBoundsException();
+    }
 
-public Object nth(int i){
-	if(i == 0)
-		return key();
-	else if(i == 1)
-		return val();
-	else
-		throw new IndexOutOfBoundsException();
-}
+    private IPersistentVector asVector() {
+        return LazilyPersistentVector.createOwning(key(), val());
+    }
 
-private IPersistentVector asVector(){
-	return LazilyPersistentVector.createOwning(key(), val());
-}
+    public IPersistentVector assocN(int i, Object val) {
+        return asVector().assocN(i, val);
+    }
 
-public IPersistentVector assocN(int i, Object val){
-	return asVector().assocN(i, val);
-}
+    public int count() {
+        return 2;
+    }
 
-public int count(){
-	return 2;
-}
+    public ISeq seq() {
+        return asVector().seq();
+    }
 
-public ISeq seq(){
-	return asVector().seq();
-}
+    public IPersistentVector cons(Object o) {
+        return asVector().cons(o);
+    }
 
-public IPersistentVector cons(Object o){
-	return asVector().cons(o);
-}
+    public IPersistentCollection empty() {
+        return null;
+    }
 
-public IPersistentCollection empty(){
-	return null;
-}
+    public IPersistentStack pop() {
+        return LazilyPersistentVector.createOwning(key());
+    }
 
-public IPersistentStack pop(){
-	return LazilyPersistentVector.createOwning(key());
-}
-
-public Object setValue(Object value){
-	throw new UnsupportedOperationException();
-}
+    public Object setValue(Object value) {
+        throw new UnsupportedOperationException();
+    }
 
 /*
 

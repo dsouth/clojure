@@ -881,7 +881,7 @@ public class Compiler implements Opcodes {
                         return new InstanceFieldExpr(line, instance, munge(sym.name), tag);
                 } else {
                     ISeq call = (ISeq) ((RT.third(form) instanceof ISeq) ? RT.third(form) : RT.next(RT.next(form)));
-                    if (!(RT.first(call) instanceof Symbol))
+                    if (!(is_first_symbol(call)))
                         throw new IllegalArgumentException("Malformed member expression");
                     Symbol sym = (Symbol) RT.first(call);
                     Symbol tag = tagOf(form);
@@ -1703,7 +1703,7 @@ public class Compiler implements Opcodes {
                     return NumberExpr.parse((Number) v);
                 else if (v instanceof String)
                     return new StringExpr((String) v);
-                else if (v instanceof IPersistentCollection && ((IPersistentCollection) v).count() == 0)
+                else if (is_a_non_empty_persistent_coll(v))
                     return new EmptyExpr(v);
                 else
                     return new ConstantExpr(v);
@@ -5732,7 +5732,7 @@ public class Compiler implements Opcodes {
                 return new StringExpr(((String) form).intern());
 //	else if(fclass == Character.class)
 //		return new CharExpr((Character) form);
-            else if (form instanceof IPersistentCollection && ((IPersistentCollection) form).count() == 0) {
+            else if (is_a_non_empty_persistent_coll(form)) {
                 Expr ret = new EmptyExpr(form);
                 if (RT.meta(form) != null)
                     ret = new MetaExpr(ret, MapExpr
@@ -5760,6 +5760,10 @@ public class Compiler implements Opcodes {
             else
                 throw (CompilerException) e;
         }
+    }
+
+    private static boolean is_a_non_empty_persistent_coll(Object form) {
+        return form instanceof IPersistentCollection && ((IPersistentCollection) form).count() == 0;
     }
 
     static public class CompilerException extends RuntimeException {
@@ -5893,11 +5897,9 @@ public class Compiler implements Opcodes {
     }
 
     private static Expr analyzeSeq(C context, ISeq form, String name) {
-        Integer line = (Integer) LINE.deref();
-        if (RT.meta(form) != null && RT.meta(form).containsKey(RT.LINE_KEY))
-            line = (Integer) RT.meta(form).valAt(RT.LINE_KEY);
-        Var.pushThreadBindings(
-                RT.map(LINE, line));
+        Integer line = get_line_number(form);
+        final IPersistentMap bindings = RT.map(LINE, line);
+        Var.pushThreadBindings(bindings);
         try {
             Object me = macroexpand1(form);
             if (me != form)
@@ -5926,6 +5928,20 @@ public class Compiler implements Opcodes {
         }
     }
 
+    private static Integer get_line_number(ISeq form) {
+        if (has_meta_line(form))
+            return meta_line(form);
+        return (Integer) LINE.deref();
+    }
+
+    private static Integer meta_line(ISeq form) {
+        return (Integer) RT.meta(form).valAt(RT.LINE_KEY);
+    }
+
+    private static boolean has_meta_line(ISeq form) {
+        return RT.meta(form) != null && RT.meta(form).containsKey(RT.LINE_KEY);
+    }
+
     static String errorMsg(String source, int line, String s) {
         return String.format("%s, compiling:(%s:%d)", s, source, line);
     }
@@ -5948,17 +5964,12 @@ public class Compiler implements Opcodes {
             Var.pushThreadBindings(RT.map(LINE, line));
             try {
                 form = macroexpand(form);
-                if (form instanceof IPersistentCollection && Util.equals(RT.first(form), DO)) {
-                    ISeq s = RT.next(form);
-                    for (; RT.next(s) != null; s = RT.next(s))
-                        eval(RT.first(s), false);
-                    return eval(RT.first(s), false);
-                } else if ((form instanceof IType) ||
-                        (form instanceof IPersistentCollection
-                                && !(RT.first(form) instanceof Symbol
-                                && ((Symbol) RT.first(form)).name.startsWith("def")))) {
-                    ObjExpr fexpr = (ObjExpr) analyze(C.EXPRESSION, RT.list(FN, PersistentVector.EMPTY, form),
-                            "eval" + RT.nextID());
+                if (is_a_do_form(form)) {
+                    return eval_do_body(form);
+                } else if ((form instanceof IType) || is_a_symbol_starting_persistent_coll_that_is_not_def(form)) {
+                    final ISeq list = RT.list(FN, PersistentVector.EMPTY, form);
+                    final String name = "eval" + RT.nextID();
+                    ObjExpr fexpr = (ObjExpr) analyze(C.EXPRESSION, list, name);
                     IFn fn = (IFn) fexpr.eval();
                     return fn.invoke();
                 } else {
@@ -5976,6 +5987,29 @@ public class Compiler implements Opcodes {
             if (createdLoader)
                 Var.popThreadBindings();
         }
+    }
+
+    private static boolean is_a_symbol_starting_persistent_coll_that_is_not_def(Object form) {
+        return form instanceof IPersistentCollection && !(is_first_symbol(form) && is_def_form(form));
+    }
+
+    private static boolean is_first_symbol(Object form) {
+        return RT.first(form) instanceof Symbol;
+    }
+
+    private static boolean is_def_form(Object form) {
+        return ((Symbol) RT.first(form)).name.startsWith("def");
+    }
+
+    private static Object eval_do_body(Object form) {
+        ISeq do_body = RT.next(form);
+        for (; RT.next(do_body) != null; do_body = RT.next(do_body))
+            eval(RT.first(do_body), false);
+        return eval(RT.first(do_body), false);
+    }
+
+    private static boolean is_a_do_form(Object form) {
+        return form instanceof IPersistentCollection && Util.equals(RT.first(form), DO);
     }
 
     private static int registerConstant(Object o) {
@@ -6406,7 +6440,7 @@ public class Compiler implements Opcodes {
                 ));
         try {
             form = macroexpand(form);
-            if (form instanceof IPersistentCollection && Util.equals(RT.first(form), DO)) {
+            if (is_a_do_form(form)) {
                 for (ISeq s = RT.next(form); s != null; s = RT.next(s)) {
                     compile1(gen, objx, RT.first(s));
                 }

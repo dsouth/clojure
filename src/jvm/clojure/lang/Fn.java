@@ -12,5 +12,5 @@
 
 package clojure.lang;
 
-public interface Fn{
+public interface Fn {
 }

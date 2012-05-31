@@ -12,9 +12,9 @@
 
 package clojure.lang;
 
-public interface IRef extends IDeref{
+public interface IRef extends IDeref {
 
-	void setValidator(IFn vf);
+    void setValidator(IFn vf);
 
     IFn getValidator();
 

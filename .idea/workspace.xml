@@ -3,6 +3,105 @@
   <component name="ChangeListManager">
     <list default="true" id="cdaa0f8b-da31-427a-a866-9f9fd5a9ece3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/AFunction.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/AFunction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/AMapEntry.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/AMapEntry.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/APersistentMap.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/APersistentMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/APersistentSet.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/APersistentSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/APersistentVector.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/APersistentVector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/ARef.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/ARef.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/AReference.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/AReference.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/ATransientMap.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/ATransientMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/ATransientSet.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/ATransientSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/Agent.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/Agent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/ArityException.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/ArityException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/ArrayChunk.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/ArrayChunk.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/ArraySeq.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/ArraySeq.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/Atom.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/Atom.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/BigInt.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/BigInt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/Binding.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/Binding.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/Box.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/Box.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/ChunkBuffer.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/ChunkBuffer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/ChunkedCons.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/ChunkedCons.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/Compile.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/Compile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/Compiler.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/Compiler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/Delay.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/Delay.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/EnumerationSeq.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/EnumerationSeq.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/ExceptionInfo.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/ExceptionInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/Fn.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/Fn.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/FnLoaderThunk.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/FnLoaderThunk.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/IBlockingDeref.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/IBlockingDeref.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/IChunk.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/IChunk.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/IChunkedSeq.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/IChunkedSeq.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/IDeref.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/IDeref.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/IEditableCollection.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/IEditableCollection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/IHashEq.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/IHashEq.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/IKeywordLookup.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/IKeywordLookup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/ILookup.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/ILookup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/ILookupSite.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/ILookupSite.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/ILookupThunk.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/ILookupThunk.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/IMapEntry.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/IMapEntry.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/IPending.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/IPending.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/IPersistentCollection.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/IPersistentCollection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/IPersistentList.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/IPersistentList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/IPersistentMap.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/IPersistentMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/IPersistentSet.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/IPersistentSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/IPersistentStack.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/IPersistentStack.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/IPersistentVector.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/IPersistentVector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/IProxy.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/IProxy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/IReduce.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/IReduce.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/IRef.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/IRef.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/IReference.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/IReference.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/ISeq.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/ISeq.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/ITransientAssociative.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/ITransientAssociative.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/ITransientCollection.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/ITransientCollection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/ITransientMap.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/ITransientMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/ITransientSet.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/ITransientSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/ITransientVector.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/ITransientVector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/Indexed.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/Indexed.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/IndexedSeq.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/IndexedSeq.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/Intrinsics.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/Intrinsics.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/IteratorSeq.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/IteratorSeq.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/Keyword.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/Keyword.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/KeywordLookupSite.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/KeywordLookupSite.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/LazilyPersistentVector.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/LazilyPersistentVector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/LazySeq.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/LazySeq.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/LineNumberingPushbackReader.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/LineNumberingPushbackReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/LispReader.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/LispReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/LockingTransaction.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/LockingTransaction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/MapEntry.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/MapEntry.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/MapEquivalence.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/MapEquivalence.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/MethodImplCache.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/MethodImplCache.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/MultiFn.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/MultiFn.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/Named.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/Named.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/Numbers.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/Numbers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/PersistentArrayMap.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/PersistentArrayMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/PersistentHashMap.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/PersistentHashMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/PersistentHashSet.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/PersistentHashSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/PersistentQueue.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/PersistentQueue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/PersistentStructMap.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/PersistentStructMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/PersistentTreeMap.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/PersistentTreeMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/PersistentTreeSet.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/PersistentTreeSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/PersistentVector.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/PersistentVector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/ProxyHandler.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/ProxyHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/RT.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/RT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/Range.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/Range.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/Ratio.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/Ratio.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/Reduced.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/Reduced.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/Ref.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/Ref.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/Reflector.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/Reflector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/Repl.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/Repl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/RestFn.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/RestFn.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/Reversible.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/Reversible.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/Script.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/Script.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/SeqEnumeration.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/SeqEnumeration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/SeqIterator.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/SeqIterator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/Settable.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/Settable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/Sorted.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/Sorted.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/StringSeq.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/StringSeq.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/Symbol.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/Symbol.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/TransactionalHashMap.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/TransactionalHashMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/Util.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/Util.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jvm/clojure/lang/XMLHandler.java" afterPath="$PROJECT_DIR$/src/jvm/clojure/lang/XMLHandler.java" />
     </list>
     <ignored path="clojure.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,7 +120,20 @@
   </component>
   <component name="DebuggerManager">
     <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/jvm/clojure/lang/RT.java" line="1960" class="clojure.lang.RT" package="clojure.lang">
+      <breakpoint url="file://$PROJECT_DIR$/src/jvm/clojure/main.java" line="35" class="clojure.main" package="clojure">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/jvm/clojure/lang/Compiler.java" line="5953" class="clojure.lang.Compiler" package="clojure.lang">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -75,69 +187,84 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jvm/clojure/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="3" selection-start="102" selection-end="102" vertical-scroll-proportion="0.30757576">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Compiler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/Compiler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5958" column="0" selection-start="242504" selection-end="242504" vertical-scroll-proportion="-7.9615383">
+            <state line="5983" column="26" selection-start="243193" selection-end="243193" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Var.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/Var.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="34" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ARef.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/ARef.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="38" selection-start="588" selection-end="588" vertical-scroll-proportion="-0.60584956">
               <folding>
-                <element signature="e#0#311361#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="e#284279#284324#0" expanded="true" />
-                <element signature="e#284399#284430#0" expanded="true" />
+                <element signature="e#0#2552#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.clj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/clj/clojure/core.clj">
+      <file leaf-file-name="AReference.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/AReference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6275" column="63" selection-start="206988" selection-end="206988" vertical-scroll-proportion="0.0">
+            <state line="14" column="40" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="version.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/clojure/version.properties">
+      <file leaf-file-name="IReference.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/IReference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
+            <state line="14" column="40" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.txt">
+      <file leaf-file-name="IMeta.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/IMeta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="23" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
+            <state line="14" column="17" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.xml">
+      <file leaf-file-name="LispReader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/LispReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="25" selection-start="1406" selection-end="1413" vertical-scroll-proportion="-19.26923">
+            <state line="993" column="0" selection-start="37866" selection-end="37866" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AtomicInteger.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/src.jar!/src/java/util/concurrent/atomic/AtomicInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="130" column="21" selection-start="3761" selection-end="3761" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ISeq.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/ISeq.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="17" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -146,34 +273,10 @@
       <file leaf-file-name="RT.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/RT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1962" column="47" selection-start="70497" selection-end="70497" vertical-scroll-proportion="0.0">
+            <state line="506" column="0" selection-start="25840" selection-end="25840" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#0#74712#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="e#69928#70298#0" expanded="true" />
-                <element signature="e#70287#70288#0" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Var.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/Var.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="196" column="37" selection-start="5330" selection-end="5330" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#17759#0" expanded="true" />
-                <element signature="e#1835#1842#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AtomicBoolean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/src.jar!/src/java/util/concurrent/atomic/AtomicBoolean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="13" selection-start="632" selection-end="632" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -188,16 +291,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SORT_ALPHABETICALLY" value="true" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/jvm/clojure/lang/RT.java" />
-        <option value="$PROJECT_DIR$/src/jvm/clojure/lang/Var.java" />
-        <option value="$PROJECT_DIR$/src/jvm/clojure/lang/Compiler.java" />
-        <option value="$PROJECT_DIR$/build.xml" />
-        <option value="$PROJECT_DIR$/src/resources/clojure/version.properties" />
-        <option value="$PROJECT_DIR$/readme.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/jvm/clojure/main.java" />
+        <option value="$PROJECT_DIR$/src/jvm/clojure/lang/LineNumberingPushbackReader.java" />
+        <option value="$PROJECT_DIR$/src/jvm/clojure/lang/IFn.java" />
+        <option value="$PROJECT_DIR$/src/jvm/clojure/lang/PersistentList.java" />
+        <option value="$PROJECT_DIR$/src/jvm/clojure/lang/ASeq.java" />
+        <option value="$PROJECT_DIR$/src/jvm/clojure/lang/Obj.java" />
+        <option value="$PROJECT_DIR$/src/jvm/clojure/lang/Cons.java" />
+        <option value="$PROJECT_DIR$/src/jvm/clojure/lang/AFn.java" />
+        <option value="$PROJECT_DIR$/src/jvm/clojure/lang/DynamicClassLoader.java" />
+        <option value="$PROJECT_DIR$/src/jvm/clojure/lang/Namespace.java" />
+        <option value="$PROJECT_DIR$/src/jvm/clojure/lang/LispReader.java" />
+        <option value="$PROJECT_DIR$/src/jvm/clojure/lang/Associative.java" />
+        <option value="$PROJECT_DIR$/src/jvm/clojure/lang/Compiler.java" />
+        <option value="$PROJECT_DIR$/src/clj/clojure/core.clj" />
+        <option value="$PROJECT_DIR$/src/jvm/clojure/lang/ARef.java" />
       </list>
     </option>
   </component>
@@ -220,7 +335,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -231,57 +346,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clojure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clojure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clojure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clojure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jvm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clojure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -295,6 +360,7 @@
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -470,6 +536,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="cdaa0f8b-da31-427a-a866-9f9fd5a9ece3" name="Default" comment="" />
       <created>1337902721987</created>
       <updated>1337902721987</updated>
     </task>
@@ -493,33 +560,37 @@
       <created>1337905245160</created>
       <updated>1337905245160</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Formatting and cleaning up">
+      <created>1337986002038</created>
+      <updated>1337986002038</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1145" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27246094" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39941406" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32910156" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22558594" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32910156" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67089844" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32910156" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24946581" sideWeight="0.671875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.77441406" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -559,7 +630,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ignore Intellij's out directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mass reformatting" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -575,6 +646,8 @@
     <MESSAGE value="Reformatting file" />
     <MESSAGE value="version.properties mangled and explanation" />
     <MESSAGE value="Ignore Intellij's out directory" />
+    <MESSAGE value="Formatting and cleaning up" />
+    <MESSAGE value="Mass reformatting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -584,86 +657,119 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/src.jar!/src/java/util/concurrent/atomic/AtomicBoolean.java">
+    <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/IHashEq.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="632" selection-end="632" vertical-scroll-proportion="0.0">
+        <state line="14" column="17" selection-start="541" selection-end="541" vertical-scroll-proportion="0.2583519">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/Var.java">
+    <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/IType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="196" column="37" selection-start="5330" selection-end="5330" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#17759#0" expanded="true" />
-            <element signature="e#1835#1842#0" expanded="true" />
-          </folding>
+        <state line="12" column="17" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/IPersistentCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="51" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/Seqable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="17" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/Sequential.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/IPersistentStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="17" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/LispReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="993" column="0" selection-start="37866" selection-end="37866" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/src.jar!/src/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="21" selection-start="3761" selection-end="3761" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/ISeq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="17" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/RT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1962" column="47" selection-start="70497" selection-end="70497" vertical-scroll-proportion="0.0">
+        <state line="506" column="0" selection-start="25840" selection-end="25840" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#74712#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#69928#70298#0" expanded="true" />
-            <element signature="e#70287#70288#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/Compiler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5958" column="0" selection-start="242504" selection-end="242504" vertical-scroll-proportion="-7.9615383">
+        <state line="5983" column="26" selection-start="243193" selection-end="243193" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/Var.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="34" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/IMeta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="17" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/IReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="40" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/AReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="40" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/clojure/lang/ARef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="38" selection-start="588" selection-end="588" vertical-scroll-proportion="-0.60584956">
           <folding>
-            <element signature="e#0#311361#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#284279#284324#0" expanded="true" />
-            <element signature="e#284399#284430#0" expanded="true" />
+            <element signature="e#0#2552#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jvm/clojure/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/clojure/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6275" column="63" selection-start="206988" selection-end="206988" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="25" selection-start="1406" selection-end="1413" vertical-scroll-proportion="-19.26923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/clojure/version.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="23" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="3" selection-start="102" selection-end="102" vertical-scroll-proportion="0.30757576">
-          <folding />
         </state>
       </provider>
     </entry>

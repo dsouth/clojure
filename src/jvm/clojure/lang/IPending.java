@@ -10,6 +10,6 @@
 
 package clojure.lang;
 
-public interface IPending{
+public interface IPending {
     boolean isRealized();
 }

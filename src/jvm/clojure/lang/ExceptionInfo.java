@@ -15,14 +15,14 @@ package clojure.lang;
  * richer semantics for exceptions should use this in lieu of defining project-specific
  * exception classes.
  */
-public class ExceptionInfo extends RuntimeException{
+public class ExceptionInfo extends RuntimeException {
     public final IPersistentMap data;
 
     public ExceptionInfo(String s, IPersistentMap data) {
         super(s);
         if (data instanceof IPersistentMap) {
             this.data = data;
-        }  else {
+        } else {
             throw new IllegalArgumentException("Additional data must be a persistent map: " + data);
         }
     }
